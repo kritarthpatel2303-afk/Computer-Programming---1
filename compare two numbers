@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+
+    int a,b;
+    printf("enter 2 number to be compared");
+    scanf("%d %d",&a,&b);
+    if (a>b)
+         printf("the larger among two is: \n %d",a);
+    else
+         printf("the larger among two is: \n %d",b);
+    getch();
+}
