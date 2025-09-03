@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main ()
+{
+    int n;
+    int i;
+    printf("enter the number till you want to have");
+    scanf("%d",&n);
+    if (n<=0)
+    {
+        printf("please enter a positive integer.\n");
+        return 1;
+    }
+    printf("the first natural numbers till the given digit  are:\n");
+    for (i=1;i<=n; i++)
+    {
+        printf("%d", i);    }
+    return 0;
+}
