@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main ()
+{
+    char nm [] = "PDPU";
+int i = 0;
+while (nm[i] != '\0')
+{
+    if (nm [i]>='A' && nm [i]<='Z');
+    nm [i] += 32;
+    i++;
+
+
+}
+printf("%s", nm);
+
+}
