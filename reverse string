@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main ()
+{
+    char nm [] = " htratirk";
+int i = 0;
+while (nm[i] != '\0')
+{
+    i++;
+}
+int j = i-1;
+i = 0;
+while (i<j)
+{
+    char t = nm[i];
+    nm[i] = nm[j];
+    nm[j] = t;
+    i++; j--;
+}
+
+printf("Reversed string is %s" ,nm);
+
+}
+
