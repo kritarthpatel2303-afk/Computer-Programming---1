@@ -1,0 +1,11 @@
+#include<stdio.h>
+int sumofno(int n);
+int main()
+{
+    printf("The sum  is %d", sumofno(5));
+}
+int sumofno(int n)
+{
+    return ((n)?(n + sumofno(n-1)):0);
+
+}
