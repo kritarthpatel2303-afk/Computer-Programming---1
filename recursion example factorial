@@ -1,0 +1,11 @@
+#include<stdio.h>
+int fac(int n);
+int main()
+{
+    printf("The factorial  is %d", fac(10));
+}
+int fac(int n)
+{
+    return ((n)?(n*fac(n-1)):1);
+
+}
