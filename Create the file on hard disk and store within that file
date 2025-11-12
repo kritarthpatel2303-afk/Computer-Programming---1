@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    FILE*fwp = NULL;
+    char ch;
+    printf("Enter your details,At the end, put #sign.\n");
+           fwp =
+           fopen("my1stfl.dat","w");
+           ch = fgetc(stdin);
+           while (ch !='#')
+           {
+               fputc(ch,fwp);
+
+           };
+           fclose(fwp);
+           printf("\n The Data has been successfully written whitin file.\n ");
+
+};
